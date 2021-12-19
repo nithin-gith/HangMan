@@ -14,7 +14,7 @@ public class HangMan{
     public static char[] array;
     public static void main(String[] args) {
         wordNum= (int)(Math.random()* (words.length));
-        actualWord = "apple";
+        actualWord = words[wordNum];
         array = splitWord();
         System.out.println("=======================================\n\tWELCOME TO HANGMAN!\n=======================================\n");
         System.out.println("LET'S PLAY!\nClick Enter to start the game!");
